@@ -1,0 +1,10 @@
+return {
+    MIN_WIDTH = 1280,
+    MIN_HEIGHT = 720,
+    MAX_WIDTH = 1920,
+    MAX_HEIGHT = 1080,
+    GRID_SIZE = 20,
+    DEFAULT_BRUSH_SIZE = 5,
+    DEFAULT_COLOR = {0, 0, 0, 1},
+    DEFAULT_BRUSH_STYLE = "circle"
+}
