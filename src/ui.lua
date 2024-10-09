@@ -340,7 +340,7 @@ function UI.draw()
     end
 
     if State.get("editMode") then
-        love.graphics.setColor(1, 1, 1, 0.5)
+        love.graphics.setColor(0, 0, 0, 0.5)
         for y = 0, State.get("windowHeight"), Config.GRID_SIZE do
             love.graphics.line(0, y, State.get("windowWidth"), y)
         end
